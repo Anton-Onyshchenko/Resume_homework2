@@ -1,0 +1,93 @@
+/* Base styles */
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* General styles */
+
+body {
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+section {
+  padding: 32px;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.container {
+  max-width: 1228px;
+  margin: 0 auto;
+}
+
+/* Header styles */
+
+.header {
+  padding: 32px;
+  background-color: #f4f4f4;
+}
+
+.header-nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Hero styles */
+
+.hero-section {
+  background-color: #e9ecef;
+}
+
+.hero-container {
+  max-width: 1096px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-image {
+  border: 1px solid #333;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+/* Skills styles */
+
+.skills-flex-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.skills-flex-item {
+  flex-basis: calc((100% - 3 * 10px) / 2);
+  background-color: #f9f9f9;
+  padding: 15px;
+}
+
+/* Footer styles */
+
+footer {
+  text-align: center;
+  background-color: #f4f4f4;
+}
