@@ -4,239 +4,168 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-    rel="stylesheet">
+  <title>Resume</title>
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
 
-  <!-- #region Header -->
   <header>
-
     <div class="container">
 
-      <nav class="site-menu">
-        <ul class="menu-list">
-          <li class="menu-list-item">
-            <a class="menu-link" href="./index.html">Home</a>
+      <nav>
+
+        <ul class="header-nav-list">
+          <li>
+            <a href="./index.html">Home</a>
           </li>
-          <li class="menu-list-item">
-            <a class="menu-link" href="#">About me</a>
+          <li>
+            <a href="#about">About</a>
           </li>
-          <li class="menu-list-item">
-            <a class="menu-link" href="#">Skills</a>
+          <li>
+            <a href="#skills">Skills</a>
           </li>
-          <li class="menu-list-item">
-            <a class="menu-link" href="#">Contacts</a>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contacts">Contacts</a>
           </li>
         </ul>
       </nav>
 
-      <img src="./images/line.png" alt="Header line">
-
     </div>
 
   </header>
-  <!-- #endregion -->
-  <!-- #region Main -->
+
   <main>
-    <!-- #region Hero section -->
-    <section>
+    <section class="hero-section">
 
-      <div class="container">
-        <h1 class="hero-title">Denis Novik</h1>
-        <img src="./images/picture-of-denis-novik.jpg" alt="Picture of Denis Novik">
-      </div>
+      <div class="container hero-container">
 
-    </section>
-    <!-- #endregion -->
-
-    <!-- #region About me sectiop-->
-    <section class="section secondary-section">
-
-      <div class="container">
-
-        <h2 class="section-title">About me</h2>
-
-        <ul class="about-me-list">
-
-          <li class="about-me-list-item">
-
-            <p>Hi, I'm Denis - UX/UI designer from Kyiv.</p>
-            <p>I'm interested in design and everything connected with it.</p>
-
-          </li>
-
-          <li class="about-me-list-item">
-
-            <p>I'm studying at courses "Web and mobile design <br>
-              interfaces" in IT-Academy.</p>
-
-          </li>
-
-          <li class="about-me-list-item">
-
-            <p>Ready to implement excellent projects <br>
-              with wonderful people.</p>
-          </li>
-
-        </ul>
+        <img class="hero-image" src="./images/photo.jpg" alt="Photo of Anton Onyshchenko">
+        <h2>Anton Onyshchenko</h2>
+        <h1> Full Stack Developer</h1>
 
       </div>
 
     </section>
-    <!-- #endregion -->
 
-    <!-- #region Skill section -->
-    <section class="section">
+    <section id="about">
 
       <div class="container">
 
-        <h2 class="section-title">Skills</h2>
-        <p class="section-text">I work in such programs as</p>
+        <h2 class="section-title">About</h2>
+        <p>I'm passionate about web development and constantly strive to improve my skills. My goal is to create
+          high-quality and
+          effective web solutions.</p>
 
-        <ul class="skills-list">
-
-          <li>
-            <figure class="skills-figure">
-              <img class="skills-figure-img" src="./images/skills/ps.jpg" alt="Picture of Photoshop">
-              <figcaption class="skills-figure-caption">Adobe <br>Photoshop</figcaption>
-            </figure>
-            <img class="skill-rating-starts" src="./images/skills/ps-starts.png" alt="Photoshop's raiting starts">
-          </li>
-
-          <li>
-            <figure class="skills-figure">
-              <img class="skills-figure-img" src="./images/skills/ai.jpg" alt="Picture of Adobe Illustrator">
-              <figcaption class="skills-figure-caption">Adobe <br>Illustrator</figcaption>
-            </figure>
-            <img class="skill-rating-starts" src="./images/skills/ai-starts.png"
-              alt="Abode Illustrator's raiting starts">
-          </li>
-
-          <li>
-            <figure class="skills-figure">
-              <img class="skills-figure-img" src="./images/skills/ae.jpg" alt="Picture of Adobe After Effects">
-              <figcaption class="skills-figure-caption">Adobe <br>After Effects</figcaption>
-            </figure>
-            <img class="skill-rating-starts" src="./images/skills/ae-starts.png"
-              alt=" Adobe After Effects's raiting starts">
-          </li>
-          <li>
-            <figure class="skills-figure">
-              <img class="skills-figure-img" src="./images/skills/figma.jpg" alt="Picture of Figma">
-              <figcaption class="skills-figure-caption">Figma <br></figcaption>
-            </figure>
-            <img class="skill-rating-starts-figma" src="./images/skills/figma-starts.png" alt="Figma's raiting start">
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- #endregion -->
-
-    <!-- #region Portfolio section -->
-
-    <section class=" section secondary-section">
-
-      <div class="container">
-
-        <h2 class="section-title">Portfolio</h2>
         <ul>
           <li>
-            <figure>
-              <img class="portfolio-image" src="./images/portfolio/fashion-store.jpg" alt="">
-              <figcaption class="portfolio-name">Online fashion store - <br>Homepage</figcaption>
-            </figure>
+            <p>I always stick to deadlines</p>
           </li>
           <li>
-            <figure>
-              <img class="portfolio-image" src="./images/portfolio/reebok-store.jpg" alt="">
-              <figcaption class="portfolio-name">Reebok Store - Concept</figcaption>
-            </figure>
+            <p>I am responsible for high quality of my work</p>
           </li>
           <li>
-            <figure>
-              <img class="portfolio-image" src="./images/portfolio/braun-landing.jpg" alt="">
-              <figcaption class="portfolio-name">Braun Landing Page - Concept</figcaption>
-            </figure>
+            <p>I have excellent communication skills</p>
+          </li>
+          <li>
+            <p>I have a stable internet connection</p>
+          </li>
+          <li>
+            <p>I care about client satisfaction</p>
           </li>
         </ul>
+
       </div>
 
     </section>
-    <!-- #endregion -->
-
-  </main>
-  <!-- #endregion -->
 
 
-  <footer>
+    <section id="skills">
 
-    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-flex-container">
+
+          <div class="skills-flex-item">
+            <h3>Frontend:</h3>
+            <ul>
+              <li class="list-item">HTML</li>
+              <li class="list-item">CSS</li>
+              <li class="list-item">JavaScript</li>
+              <li class="list-item">React</li>
+            </ul>
+          </div>
+
+          <div class="skills-flex-item">
+            <h3>Backend:</h3>
+            <ul>
+              <li class="list-item">SQL (PostgreSQL)</li>
+              <li class="list-item">PHP</li>
+            </ul>
+          </div>
+
+          <div class="skills-flex-item">
+            <h3>CMS:</h3>
+            <ul>
+              <li class="list-item">WordPress</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="education">
+
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <h3>Kyiv National Economic University named after Vadym Hetman</h3>
+        <p>Year: 2008 - 2013</p>
+        <p>Business Management</p>
+      </div>
+
+    </section>
+
+    <section id="portfolio">
+
+      <div class="container">
+        <h2 class="section-title">Portfolio</h2>
+      </div>
+
+    </section>
+
+    <section id="contacts">
 
       <div class="container">
 
         <h2 class="section-title">Contacts</h2>
-        <p class="section-text">Want to know more or just chat? </p>
-        <p class="section-text">You are welcome!</p>
 
-        <div class="contact-button-container">
-
-          <button class="contact-button" type="button">Send message</button>
-
-        </div>
-
-        <ul class="contact-icon-list">
-          <li>
-            <a href="#">
-              <svg class="contact-icon">
-                <use class="" href="./images/icons/contact/symbol-defs.svg#icon-linkedin"></use>
-              </svg>
-            </a>
+        <ul class="contacts-list">
+          <li class="list-item">
+            <a href="tel:+380503447777">+38 (063) 624-24-93</a>
           </li>
-          <li>
-            <a href="#">
-              <svg class="contact-icon">
-                <use href="./images/icons/contact/symbol-defs.svg#icon-instagram"></use>
-              </svg>
-            </a>
+          <li class="list-item">
+            <a href="mailto:onyshchenkoanton@gmail.com">onyshchenkoanton@gmail.com</a>
           </li>
-          <li>
-            <a href="#">
-              <svg class="contact-icon">
-                <use href="./images/icons/contact/symbol-defs.svg#icon-behance"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <svg class="contact-icon">
-                <use href="./images/icons/contact/symbol-defs.svg#icon-dribbble"></use>
-              </svg>
-            </a>
+          <li class="list-item">
+            <a href="https://t.me/a_onyshenko">Telegram</a>
           </li>
         </ul>
-
-        <ul class="contact-text-list">
-          <li class="contact-text-item">
-            <p class="contact-text-item-text">Like me on</p>
-          </li>
-          <li class="contact-text-item">
-            <p class="contact-text-item-text">LinkedIn, Instagram, Behance</p>
-          </li>
-          <li class="contact-text-item">
-            <p class="contact-text-item-text">Dribble</p>
-          </li>
-        </ul>
-
       </div>
-
     </section>
+  </main>
+
+  <footer>
+
+    <address>&copy; 2023 Anton On. All rights reserved.</address>
 
   </footer>
 

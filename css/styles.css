@@ -25,6 +25,7 @@ main {
 
 section {
   padding: 32px;
+  border-radius: 5px;
 }
 
 .section-title {
@@ -36,9 +37,12 @@ section {
   margin: 0 auto;
 }
 
+.list-item {
+  margin-bottom: 20px;
+}
 /* Header styles */
 
-.header {
+header {
   padding: 32px;
   background-color: #f4f4f4;
 }
@@ -85,9 +89,20 @@ section {
   padding: 15px;
 }
 
+/* Education styles */
+
+/* Portfolio styles */
+
+/* Contacts styles */
+
+.list-item {
+  margin-bottom: 20px;
+}
+
 /* Footer styles */
 
 footer {
+  padding: 32px;
   text-align: center;
   background-color: #f4f4f4;
 }
